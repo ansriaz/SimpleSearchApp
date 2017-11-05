@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F41F117DDDC3CB2207FF401 /* Pods_Docebo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1D0DD66B9FA244A9CE2DB7 /* Pods_Docebo.framework */; };
+		111F2CE31D5615F00020442C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F2CE21D5615F00020442C /* AppDelegate.swift */; };
+		111F2CE51D5615F00020442C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F2CE41D5615F00020442C /* ViewController.swift */; };
+		111F2CE81D5615F00020442C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111F2CE61D5615F00020442C /* Main.storyboard */; };
+		111F2CEA1D5615F00020442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111F2CE91D5615F00020442C /* Assets.xcassets */; };
+		111F2CED1D5615F00020442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111F2CEB1D5615F00020442C /* LaunchScreen.storyboard */; };
+		E90933101FAE64A700FF499F /* CourseListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909330F1FAE64A700FF499F /* CourseListVC.swift */; };
+		E90933121FAE7AA200FF499F /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90933111FAE7AA200FF499F /* CourseCell.swift */; };
+		E90933181FAE8BC700FF499F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E90933171FAE8BC700FF499F /* Podfile */; };
+		E93A7B711FAF092E00BD5DB7 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A7B701FAF092E00BD5DB7 /* StringExtensions.swift */; };
+		E93A7B751FAFA51400BD5DB7 /* HttpServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A7B741FAFA51400BD5DB7 /* HttpServiceRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EA7B50EDC03E850FB77CBB9 /* Pods-Docebo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Docebo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Docebo/Pods-Docebo.debug.xcconfig"; sourceTree = "<group>"; };
+		111F2CDF1D5615F00020442C /* Docebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Docebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111F2CE21D5615F00020442C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		111F2CE41D5615F00020442C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		111F2CE71D5615F00020442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		111F2CE91D5615F00020442C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111F2CEC1D5615F00020442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		111F2CEE1D5615F00020442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1D0DD66B9FA244A9CE2DB7 /* Pods_Docebo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Docebo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3B8847BD9A813842A1CD42 /* Pods-Docebo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Docebo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Docebo/Pods-Docebo.release.xcconfig"; sourceTree = "<group>"; };
+		E909330F1FAE64A700FF499F /* CourseListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListVC.swift; sourceTree = "<group>"; };
+		E90933111FAE7AA200FF499F /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		E90933141FAE883400FF499F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E90933171FAE8BC700FF499F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E93A7B6D1FAE929300BD5DB7 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93A7B701FAF092E00BD5DB7 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		E93A7B741FAFA51400BD5DB7 /* HttpServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpServiceRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111F2CDC1D5615F00020442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F41F117DDDC3CB2207FF401 /* Pods_Docebo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111F2CD61D5615F00020442C = {
+			isa = PBXGroup;
+			children = (
+				E90933171FAE8BC700FF499F /* Podfile */,
+				111F2CE11D5615F00020442C /* Docebo */,
+				111F2CE01D5615F00020442C /* Products */,
+				E90933131FAE883300FF499F /* Frameworks */,
+				DD92086BE00567589F5257A0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		111F2CE01D5615F00020442C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111F2CDF1D5615F00020442C /* Docebo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111F2CE11D5615F00020442C /* Docebo */ = {
+			isa = PBXGroup;
+			children = (
+				111F2CE21D5615F00020442C /* AppDelegate.swift */,
+				111F2CE41D5615F00020442C /* ViewController.swift */,
+				111F2CE61D5615F00020442C /* Main.storyboard */,
+				111F2CE91D5615F00020442C /* Assets.xcassets */,
+				111F2CEB1D5615F00020442C /* LaunchScreen.storyboard */,
+				111F2CEE1D5615F00020442C /* Info.plist */,
+				E909330F1FAE64A700FF499F /* CourseListVC.swift */,
+				E90933111FAE7AA200FF499F /* CourseCell.swift */,
+				E93A7B701FAF092E00BD5DB7 /* StringExtensions.swift */,
+				E93A7B741FAFA51400BD5DB7 /* HttpServiceRequest.swift */,
+			);
+			path = Docebo;
+			sourceTree = "<group>";
+		};
+		DD92086BE00567589F5257A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7B50EDC03E850FB77CBB9 /* Pods-Docebo.debug.xcconfig */,
+				8E3B8847BD9A813842A1CD42 /* Pods-Docebo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E90933131FAE883300FF499F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93A7B6D1FAE929300BD5DB7 /* libSDWebImage.a */,
+				E90933141FAE883400FF499F /* ImageIO.framework */,
+				6D1D0DD66B9FA244A9CE2DB7 /* Pods_Docebo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111F2CDE1D5615F00020442C /* Docebo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111F2CF11D5615F00020442C /* Build configuration list for PBXNativeTarget "Docebo" */;
+			buildPhases = (
+				7F49470CE281F23DE6A11CE3 /* [CP] Check Pods Manifest.lock */,
+				111F2CDB1D5615F00020442C /* Sources */,
+				111F2CDC1D5615F00020442C /* Frameworks */,
+				111F2CDD1D5615F00020442C /* Resources */,
+				8F15DDA7E76DD221CD333149 /* [CP] Embed Pods Frameworks */,
+				6AF287E690E76F67FE15F701 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Docebo;
+			productName = UITextFieldDropDownList;
+			productReference = 111F2CDF1D5615F00020442C /* Docebo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111F2CD71D5615F00020442C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LawrenceM;
+				TargetAttributes = {
+					111F2CDE1D5615F00020442C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z2VQWAARN8;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 111F2CDA1D5615F00020442C /* Build configuration list for PBXProject "Docebo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 111F2CD61D5615F00020442C;
+			productRefGroup = 111F2CE01D5615F00020442C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111F2CDE1D5615F00020442C /* Docebo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111F2CDD1D5615F00020442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111F2CED1D5615F00020442C /* LaunchScreen.storyboard in Resources */,
+				111F2CEA1D5615F00020442C /* Assets.xcassets in Resources */,
+				E90933181FAE8BC700FF499F /* Podfile in Resources */,
+				111F2CE81D5615F00020442C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AF287E690E76F67FE15F701 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Docebo/Pods-Docebo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F49470CE281F23DE6A11CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Docebo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F15DDA7E76DD221CD333149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Docebo/Pods-Docebo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Docebo/Pods-Docebo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111F2CDB1D5615F00020442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90933101FAE64A700FF499F /* CourseListVC.swift in Sources */,
+				111F2CE51D5615F00020442C /* ViewController.swift in Sources */,
+				E93A7B711FAF092E00BD5DB7 /* StringExtensions.swift in Sources */,
+				111F2CE31D5615F00020442C /* AppDelegate.swift in Sources */,
+				E90933121FAE7AA200FF499F /* CourseCell.swift in Sources */,
+				E93A7B751FAFA51400BD5DB7 /* HttpServiceRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		111F2CE61D5615F00020442C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111F2CE71D5615F00020442C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		111F2CEB1D5615F00020442C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				111F2CEC1D5615F00020442C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		111F2CEF1D5615F00020442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		111F2CF01D5615F00020442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		111F2CF21D5615F00020442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA7B50EDC03E850FB77CBB9 /* Pods-Docebo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z2VQWAARN8;
+				INFOPLIST_FILE = Docebo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansriaz.Docebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		111F2CF31D5615F00020442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3B8847BD9A813842A1CD42 /* Pods-Docebo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z2VQWAARN8;
+				INFOPLIST_FILE = Docebo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansriaz.Docebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111F2CDA1D5615F00020442C /* Build configuration list for PBXProject "Docebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F2CEF1D5615F00020442C /* Debug */,
+				111F2CF01D5615F00020442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111F2CF11D5615F00020442C /* Build configuration list for PBXNativeTarget "Docebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111F2CF21D5615F00020442C /* Debug */,
+				111F2CF31D5615F00020442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111F2CD71D5615F00020442C /* Project object */;
+}
